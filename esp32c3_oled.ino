@@ -29,6 +29,7 @@ void loop(void) {
   u8g2.setFont(u8g2_font_6x13_t_cyrillic); 
   // write something to the internal memory
   u8g2.drawStr(0,10,"CHARMAINE");  // *** edit text here 
+  u8g2.drawStr(0,20,"ONG");
   // transfer internal memory to the display
   u8g2.sendBuffer();                  
   delay(1000);  
